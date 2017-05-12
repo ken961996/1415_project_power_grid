@@ -1,0 +1,25 @@
+IMAGE DESCRIPTIONS
+
+Nodes.jpg - map of all node locations
+
+Maps of the 100 nodes with the lowest centrality values
+  - Degree100.jpg
+  - Eigenvector100.jpg
+  - PageRank100.jpg
+
+Raster data/heat map based on centrality values gathered from the 12 nearest nodes.
+Formed using the Kriging geostatistical procedure (http://desktop.arcgis.com/en/arcmap/10.3/tools/3d-analyst-toolbox/how-kriging-works.htm).
+  - DegreeRaster.jpg
+  - EigenvectorRaster.jpg
+  - PageRankRaster.jpg
+  - LogEigenvectorRaster.jpg - based on log of eigenvector centralities
+
+Maps of the power plants with dot size increasing in centrality value
+Dot sizes are divided into 5 categories (not continuous)
+  - DegreePlants.jpg
+  - EigenvectorPlants.jpg
+  - PageRankPlants.jpg
+
+Map of power outages by state in 2015
+  - Outages.jpg - total outages
+  - OutagesByPop.jpg - outages per capita
